@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+main{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    line-height: 3rem;
+}
