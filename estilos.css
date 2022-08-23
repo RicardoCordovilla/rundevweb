@@ -11,7 +11,18 @@ html{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    color: #111125;
+    color: #dfd;
+}
+
+div{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(39, 34, 170, 0.6);
+    backdrop-filter: blur(1px);
 }
 
 img{
@@ -19,13 +30,13 @@ img{
     z-index: 0;
     top: 0;
     left: 0;
-    width: 100%;
+    height: 100%;
 }
 
 main{
     padding-top: 2em;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     text-align: center;
     line-height: 3rem;
     display: flex;
@@ -42,6 +53,7 @@ p{
     min-width: 300px;
     text-align: left;
     margin-bottom: 1em;
+    font-size: 1.2rem;
 }
 
 form{
@@ -58,13 +70,14 @@ label{
     margin-bottom: -1.5em;
     text-align: left;
     align-self: flex-start;
+    color: #898;
 }
 
 
 input, textarea{
     line-height: 1rem;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 0.5em;
     border: 1px solid #999;
     background-color: #ddd;
@@ -90,6 +103,7 @@ button{
     border-radius: 32px;
     box-shadow: 0 0 2px 1px #2a2;
     cursor: pointer;
+    margin-bottom: 2em;
 }
 
 button:hover{
